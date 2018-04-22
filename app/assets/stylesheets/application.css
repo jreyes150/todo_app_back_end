@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- ul{
+ul{
   list-style: none;
   font-size: 20px;
 }
@@ -41,4 +41,3 @@ span{
   background-color: #03A9F4;
   margin-top: 10px;
 }
-
