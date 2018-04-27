@@ -4,7 +4,6 @@ def index
 end
 
 def show
-  todo_id = params[:id]
   @todo = Todo.find_by_id(params[:id])
 end
 
@@ -34,6 +33,6 @@ end
 def destroy
   t = Todo.find_by_id(params[:id])
   t.destroy
-  redirect_to "/todo/index"
+  redirect_to "/"
 end
 end
