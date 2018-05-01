@@ -16,13 +16,14 @@
 ul{
   list-style: none;
   font-size: 20px;
+  color: #0000CD;
 }
 li{
   margin-bottom: 10px;
   padding: 5px;
 }
 li:hover{
-  background-color: #E1F5FE;
+  background-color:	#FFE4E1;
   border-radius: 3px;
 }
 span{
@@ -35,9 +36,16 @@ span{
 #new-todo-block{
   width: 60%;
   margin: 20px auto 0px auto;
+   background-color: #F0F8FF;
+  
 }
 #add-new-todo-button{
   display: block;
-  background-color: #03A9F4;
+  background-color: #F0F8FF;
   margin-top: 10px;
+  padding-left: 420px;
+}
+a{color: black;}
+h1{color:	#00008B;
+  padding-left: 670px;
 }
