@@ -37,14 +37,14 @@ span{
   width: 60%;
   margin: 20px auto 0px auto;
    background-color: #F0F8FF;
-   padding-left: 790px;
+   padding-left:15px;
   
 }
 #add-new-todo-button{
   display: block;
   background-color: #F0F8FF;
   margin-top: 10px;
-  padding-right: 120px;
+text-align: center;
 }
 a{color: black;
   text-decoration: underline;
@@ -70,7 +70,7 @@ padding-left: 5px;
   margin: 20;
  flex-wrap: wrap;
   justify-content: space-around;
-  padding-left: 728px;
+  padding-left: 100px;
 }
 
 .flex-item {
